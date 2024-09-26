@@ -98,8 +98,8 @@ void find_f(char *opcode, char *value, int ln, int format)
 		{"mod", mod_n},
 		{"pchar", pchar},
 		{"pstr", pstr},
-		{"rotb", rotb},
-		{"rott", rott},
+		{"rotl", rotl},
+		{"rotr", rotr},
 		{NULL, NULL}
 	};
 

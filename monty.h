@@ -71,8 +71,8 @@ void mod_n(stack_t **, unsigned int);
 /*String functions */
 void pchar(stack_t **, unsigned int);
 void pstr(stack_t **, unsigned int);
-void rotb(stack_t **, unsigned int);
-void rott(stack_t **, unsigned int);
+void rotl(stack_t **, unsigned int);
+void rotr(stack_t **, unsigned int);
 
 /*Errors */
 void err(int error_code, ...);
